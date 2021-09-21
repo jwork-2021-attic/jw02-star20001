@@ -31,7 +31,7 @@ public class Line {
         for (Position p : positions) {
             lineString += p.linable.toString();
             n += 1;
-            if (n % 8 == 0)
+            if (n % 16 == 0)
                 lineString += "\n";
         }
         return lineString;
